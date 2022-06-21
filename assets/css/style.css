@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'segoe';
+    src: url('/assets/fonts/Segoe\ UI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'segoe', sans-serif;
+    font-size: 14px;
+
+}
+
+
+body {
+    width: 100%;
+    min-width: 100vh;
+    background-color: rgb(243, 243, 343);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+
+}
+
+.instratram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 935px;
+    height: 100vh;
+
+
+}
+
+.instragram-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instragram-logo {
+    height: 3rem;
+}
+
+
+.profile-photo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.profile-photo img {
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.instagram-login {
+    background-color: #0095F6;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+
+.instagram-logout {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+
+.not-account {
+    color: rgb(160, 160, 160);
+
+}
+
+.link-blue {
+    color: #0095F6;
+    font-weight: bold;
+}
+
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+
+
+.app-download img {
+    width: 140px;
+    height: 40px;
+}
+
+.container-links{
+    width: 100%;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    padding: 8px;
+
+   
+
+}
+
+.links a{
+    display: inline-block;
+    padding: 5px;
+    color: #999;
+    margin: 5px;
+
+
+}
+
+
+
+
+
+
+.foto {
+    position: relative;
+}
+
+.foto img {
+    position: absolute;
+    top: -610px;
+    left: 155px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 875px) {
+
+    .instratram-wrapper {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+
+
+
+    }
+
+    .instragram-continue {
+        width: 100%;
+        min-height: 431px;
+
+    }
+
+
+    .instagram-phone {
+        display: none;
+
+
+    }
+
+
+    .container-links{
+        width: 100%;
+    }
+
+    .links {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        text-align: center;
+        padding: 8px;
+      
+    
+       
+    
+    }
+    
+    .links a{
+       justify-content: center;
+       align-items: center;
+        display: inline-block;
+        padding: 5px;
+        color: #999;
+        margin: 5px;
+       
+    
+    
+    }
+    
+    
+}
